@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Dynaserve NodeJS Example app built with Express",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "application.js",
+  "scripts": {
+    "start:prod": "node application.js",
+    "start:dev": "nodemon application.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
