@@ -9,6 +9,7 @@ app.get('/', (request, response) => {
     response.json({ 
         message: 'Hello from Hydron!'
      });
+     console.log(`Request Made To / Route From: ${request.ip}`);
 });
 
 const PORT = process.env.PORT || '3001';
